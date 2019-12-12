@@ -7,7 +7,10 @@ font-family: MiddleEarth;
 src:url('../MiddleEarth.ttf');
 }
 
-body {background-image: url("images/tb.jpg") ;font-size:20px;line-height:1.5;font-weight:400;color:#333;background-attachment: fixed;}
+body {background-image: url("images/tb.jpg") ;font-size:20px;line-height:1.5;font-weight:400;color:#333;background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 .strona{margin:0 auto;}
 
@@ -51,7 +54,7 @@ footer {clear:both;color:#fff;background:#008736;padding:5px 0 5px 5px;margin:0 
 	.strona {width:450px;}
 	aside,
 	#main {width:100%;}
-	#menu{position: unset;}
+	#menu{position: unset; top: auto;z-index: auto;}
 	aside nav h4{display:none;}
 	#slider{display:none;}
 }

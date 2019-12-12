@@ -13,6 +13,8 @@ body {
 	font-weight:400;
 	color:#333;
 	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .strona{margin:0 auto;}
@@ -98,7 +100,7 @@ footer {
 @media (max-width: 800px) and (min-width: 500px) {
 	.strona {width:450px;}
 	aside,
-	#menu{position: unset;}
+	#menu{position: unset;top: auto;z-index: auto;}
 	#main {width:100%;}
 	aside nav h4{display:none;}
 	#slider{display:none;}
