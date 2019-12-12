@@ -11,8 +11,9 @@ body {
 	font-size:20px;
 	line-height:1.5;
 	font-weight:400;
-	color:#434343;
+	color:#333;
 	background-attachment: fixed;
+	background-size: 100%;
 }
 
 .strona{margin:0 auto;}
